@@ -1,5 +1,5 @@
 {
-    "name": "solidbase/module-googlesheetsimporter",
+    "name": "solidbase/magento2-module-googlesheetsimporter",
     "description": "A Magento2 Google Sheets Importer",
     "type": "magento2-module",
     "version": "1.0.0",
