@@ -1,21 +1,21 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Service;
+namespace SolidBase\GoogleSheetsImporter\Service;
 
 use Google\Service\Exception;
 use Magento\Framework\App\Cache\Manager;
 use Magento\Framework\Exception\FileSystemException;
 use Magento\Framework\Exception\LocalizedException;
 use Psr\Log\LoggerInterface;
-use SolidBase\GoogleDriveImporter\Api\StageManagementInterface;
-use SolidBase\GoogleDriveImporter\Service\Preprocessor\AttributePreprocessorFactory;
-use SolidBase\GoogleDriveImporter\Service\Preprocessor\CategoryPreprocessorFactory;
-use SolidBase\GoogleDriveImporter\Service\Preprocessor\InventoryPreprocessorFactory;
-use SolidBase\GoogleDriveImporter\Service\Preprocessor\ProductPreprocessorFactory;
-use SolidBase\GoogleDriveImporter\Service\Importer\AttributeImporterFactory;
-use SolidBase\GoogleDriveImporter\Service\Importer\CategoryImporterFactory;
-use SolidBase\GoogleDriveImporter\Service\Importer\ProductImporterFactory;
-use SolidBase\GoogleDriveImporter\Service\Importer\InventoryImporterFactory;
+use SolidBase\GoogleSheetsImporter\Api\StageManagementInterface;
+use SolidBase\GoogleSheetsImporter\Service\Preprocessor\AttributePreprocessorFactory;
+use SolidBase\GoogleSheetsImporter\Service\Preprocessor\CategoryPreprocessorFactory;
+use SolidBase\GoogleSheetsImporter\Service\Preprocessor\InventoryPreprocessorFactory;
+use SolidBase\GoogleSheetsImporter\Service\Preprocessor\ProductPreprocessorFactory;
+use SolidBase\GoogleSheetsImporter\Service\Importer\AttributeImporterFactory;
+use SolidBase\GoogleSheetsImporter\Service\Importer\CategoryImporterFactory;
+use SolidBase\GoogleSheetsImporter\Service\Importer\ProductImporterFactory;
+use SolidBase\GoogleSheetsImporter\Service\Importer\InventoryImporterFactory;
 
 class Importer
 {

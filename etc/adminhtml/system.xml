@@ -6,16 +6,16 @@
             <resource>SolidBase_SolidBase::system_config</resource>
             <group id="modules_enabled" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Modules Enabled</label>
-                <field id="googledriveimporter" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-                    <label>Google Drive Importer</label>
+                <field id="googlesheetsimporter" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Google Sheets Importer</label>
                     <source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
                 </field>
             </group>
         </section>
-        <section id="solidbase_googledriveimporter" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+        <section id="solidbase_googlesheetsimporter" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
             <label>Google Drive Importer</label>
             <tab>solidbase</tab>
-            <resource>SolidBase_GoogleDriveImporter::config</resource>
+            <resource>SolidBase_GoogleSheetsImporter::config</resource>
             <group id="general" showInDefault="1" showInWebsite="0" showInStore="0">
                 <label>General</label>
                 <field id="enable_debug_log" type="select" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
@@ -27,7 +27,7 @@
                 <label>Google Drive</label>
                 <field id="account_type" type="select" sortOrder="05" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Account Type</label>
-                    <source_model>SolidBase\GoogleDriveImporter\Model\Config\Source\AccountType</source_model>
+                    <source_model>SolidBase\GoogleSheetsImporter\Model\Config\Source\AccountType</source_model>
                 </field>
                 <field id="client_id" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Client ID</label>

@@ -3,7 +3,7 @@
     <default>
         <solidbase>
             <modules_enabled>
-                <googledriveimporter>1</googledriveimporter>
+                <googlesheetsimporter>1</googlesheetsimporter>
             </modules_enabled>
         </solidbase>
     </default>

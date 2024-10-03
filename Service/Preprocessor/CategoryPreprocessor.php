@@ -1,9 +1,9 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Service\Preprocessor;
+namespace SolidBase\GoogleSheetsImporter\Service\Preprocessor;
 
 use Psr\Log\LoggerInterface;
-use SolidBase\GoogleDriveImporter\Api\DataProcessorInterface;
+use SolidBase\GoogleSheetsImporter\Api\DataProcessorInterface;
 
 class CategoryPreprocessor implements DataProcessorInterface
 {

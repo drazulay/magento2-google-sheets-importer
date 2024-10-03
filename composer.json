@@ -1,6 +1,6 @@
 {
-    "name": "solidbase/module-googledriveimporter",
-    "description": "A Google Drive based Entity Importer",
+    "name": "solidbase/module-googlesheetsimporter",
+    "description": "A Magento2 Google Sheets Importer",
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
@@ -14,7 +14,8 @@
     ],
     "require": {
         "google/apiclient": "^2.0",
-        "magento/product-community-edition": "2.4.7-p2"
+        "magento/product-community-edition": "2.4.7-p2",
+        "solidbase/magento2-base": "^1.0"
     },
     "scripts": {
         "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
@@ -29,7 +30,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "SolidBase\\GoogleDriveImporter\\": ""
+            "SolidBase\\GoogleSheetsImporter\\": ""
         }
     }
 }

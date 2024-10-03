@@ -1,6 +1,6 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Api;
+namespace SolidBase\GoogleSheetsImporter\Api;
 
 interface DataProcessorInterface
 {

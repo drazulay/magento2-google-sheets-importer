@@ -1,6 +1,6 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Helper;
+namespace SolidBase\GoogleSheetsImporter\Helper;
 
 use Magento\Framework\App\Helper\AbstractHelper;
 use Magento\Framework\App\Helper\Context;

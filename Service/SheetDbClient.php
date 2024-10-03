@@ -1,10 +1,10 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Service;
+namespace SolidBase\GoogleSheetsImporter\Service;
 
 use Psr\Log\LoggerInterface;
-use SolidBase\GoogleDriveImporter\Api\StageManagementInterface;
-use SolidBase\GoogleDriveImporter\Helper\Credentials;
+use SolidBase\GoogleSheetsImporter\Api\StageManagementInterface;
+use SolidBase\GoogleSheetsImporter\Helper\Credentials;
 
 class SheetDbClient
 {

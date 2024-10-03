@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="SolidBase\GoogleDriveImporter\Api\StageManagementInterface" type="SolidBase\GoogleDriveImporter\Model\StageManagement"/>
+    <preference for="SolidBase\GoogleSheetsImporter\Api\StageManagementInterface" type="SolidBase\GoogleSheetsImporter\Model\StageManagement"/>
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="google-sheets:import" xsi:type="object">SolidBase\GoogleDriveImporter\Console\Command\Import</item>
+                <item name="google-sheets:import" xsi:type="object">SolidBase\GoogleSheetsImporter\Console\Command\Import</item>
             </argument>
         </arguments>
     </type>

@@ -1,9 +1,9 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Service\Importer;
+namespace SolidBase\GoogleSheetsImporter\Service\Importer;
 
 use Psr\Log\LoggerInterface;
-use SolidBase\GoogleDriveImporter\Api\DataProcessorInterface;
+use SolidBase\GoogleSheetsImporter\Api\DataProcessorInterface;
 
 class AttributeImporter implements DataProcessorInterface
 {

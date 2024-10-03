@@ -1,6 +1,6 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Service\Importer;
+namespace SolidBase\GoogleSheetsImporter\Service\Importer;
 
 use Magento\Catalog\Api\CategoryLinkManagementInterface;
 use Magento\Catalog\Api\CategoryLinkRepositoryInterface;
@@ -33,8 +33,8 @@ use Magento\Framework\Filesystem;
 use Magento\Framework\Indexer\IndexerRegistry;
 use Magento\Store\Model\StoreManagerInterface;
 use Psr\Log\LoggerInterface;
-use SolidBase\GoogleDriveImporter\Api\DataProcessorInterface;
-use SolidBase\GoogleDriveImporter\Model\Config\Source\Visibility;
+use SolidBase\GoogleSheetsImporter\Api\DataProcessorInterface;
+use SolidBase\GoogleSheetsImporter\Model\Config\Source\Visibility;
 
 class ProductImporter implements DataProcessorInterface
 {

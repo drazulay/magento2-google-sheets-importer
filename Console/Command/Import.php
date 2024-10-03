@@ -1,13 +1,13 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Console\Command;
+namespace SolidBase\GoogleSheetsImporter\Console\Command;
 
 use Google\Service\Exception;
 use Magento\Framework\App\Area;
 use Magento\Framework\App\State;
 use Magento\Framework\Exception\FileSystemException;
 use Magento\Framework\Exception\LocalizedException;
-use SolidBase\GoogleDriveImporter\Service\Importer;
+use SolidBase\GoogleSheetsImporter\Service\Importer;
 use Symfony\Component\Console\Command\Command;
 
 class Import extends Command

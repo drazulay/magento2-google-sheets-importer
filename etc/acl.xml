@@ -4,10 +4,10 @@
         <resources>
             <resource id="Magento_Backend::admin">
                 <resource id="SolidBase_SolidBase::menu">
-                    <resource id="SolidBase_GoogleDriveImporter::config"
+                    <resource id="SolidBase_GoogleSheetsImporter::config"
                               disabled="false"
                               sortOrder="99"
-                              title="Google Drive Importer Configuration"
+                              title="Google Sheets Importer Configuration"
                               translate="title"/>
                 </resource>
             </resource>

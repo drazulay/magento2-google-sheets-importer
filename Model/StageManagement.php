@@ -1,9 +1,9 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Model;
+namespace SolidBase\GoogleSheetsImporter\Model;
 
 use Psr\Log\LoggerInterface;
-use SolidBase\GoogleDriveImporter\Api\StageManagementInterface;
+use SolidBase\GoogleSheetsImporter\Api\StageManagementInterface;
 
 class StageManagement implements StageManagementInterface
 {

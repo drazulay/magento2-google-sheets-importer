@@ -1,6 +1,6 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Api\Data;
+namespace SolidBase\GoogleSheetsImporter\Api\Data;
 
 interface JobInterface
 {

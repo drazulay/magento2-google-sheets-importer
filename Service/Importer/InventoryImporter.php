@@ -1,6 +1,6 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Service\Importer;
+namespace SolidBase\GoogleSheetsImporter\Service\Importer;
 
 use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Framework\App\Cache\Manager;
@@ -10,7 +10,7 @@ use Magento\Inventory\Model\SourceItem\Command\GetSourceItemsBySku;
 use Magento\Inventory\Model\SourceItem\Command\SourceItemsSave;
 use Magento\InventoryApi\Api\Data\SourceItemInterface;
 use Psr\Log\LoggerInterface;
-use SolidBase\GoogleDriveImporter\Api\DataProcessorInterface;
+use SolidBase\GoogleSheetsImporter\Api\DataProcessorInterface;
 
 class InventoryImporter implements DataProcessorInterface
 {

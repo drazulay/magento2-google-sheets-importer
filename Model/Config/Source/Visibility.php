@@ -1,6 +1,6 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Model\Config\Source;
+namespace SolidBase\GoogleSheetsImporter\Model\Config\Source;
 
 use Magento\Framework\Data\OptionSourceInterface;
 

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
-        <add id="SolidBase_GoogleDriveImporter::config"
-             action="adminhtml/system_config/edit/section/solidbase_googledriveimporter"
-             module="SolidBase_GoogleDriveImporter"
+        <add id="SolidBase_GoogleSheetsImporter::config"
+             action="adminhtml/system_config/edit/section/solidbase_googlesheetsimporter"
+             module="SolidBase_GoogleSheetsImporter"
              parent="SolidBase_SolidBase::menu"
-             resource="SolidBase_GoogleDriveImporter::config"
+             resource="SolidBase_GoogleSheetsImporter::config"
              sortOrder="99"
-             title="Google Drive Importer Configuration"/>
+             title="Google Sheets Importer Configuration"/>
     </menu>
 </config>

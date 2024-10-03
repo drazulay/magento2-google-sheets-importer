@@ -1,12 +1,12 @@
 <?php
 
-namespace SolidBase\GoogleDriveImporter\Service\Preprocessor;
+namespace SolidBase\GoogleSheetsImporter\Service\Preprocessor;
 
 use Magento\Catalog\Api\ProductRepositoryInterface;
 use Magento\Catalog\Model\Product\Type;
 use Magento\InventoryApi\Api\Data\SourceItemInterface;
 use Psr\Log\LoggerInterface;
-use SolidBase\GoogleDriveImporter\Api\DataProcessorInterface;
+use SolidBase\GoogleSheetsImporter\Api\DataProcessorInterface;
 
 class InventoryPreprocessor implements DataProcessorInterface
 {
