@@ -4,7 +4,7 @@ A Magento2 Google Sheets Importer
 
 Facts
 -----
-- version: 1.0.0
+- version: 1.0.2
 - extension key: SolidBase_GoogleSheetsImporter
 - [extension on GitHub](https://github.com/drazulay/magento2-module-googlesheetseimporter)
 
