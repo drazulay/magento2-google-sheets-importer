@@ -1,0 +1,35 @@
+{
+    "name": "solidbase/module-googledriveimporter",
+    "description": "A Google Drive based Entity Importer",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name":"Daniel R. Azulay",
+            "email":"daniel@danielazulay.eu"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0",
+        "magento/product-community-edition": "2.4.7-p2"
+    },
+    "scripts": {
+        "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "Sheets"
+        ]
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SolidBase\\GoogleDriveImporter\\": ""
+        }
+    }
+}
